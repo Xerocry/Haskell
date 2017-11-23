@@ -1,0 +1,962 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"main",
+				"main"
+			],
+			[
+				"cmd",
+				"cmdLine"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"parse",
+				"ParseSingleDevice"
+			],
+			[
+				"volser",
+				"volserFound"
+			],
+			[
+				"vols",
+				"volserFound"
+			],
+			[
+				"wh",
+				"while"
+			],
+			[
+				"isfl",
+				"isfline.0"
+			],
+			[
+				"coma",
+				"compareCylinders"
+			],
+			[
+				"Cyl",
+				"Cylinders"
+			],
+			[
+				"symm",
+				"symmDev"
+			],
+			[
+				"dtype",
+				"dtype1"
+			],
+			[
+				"cy",
+				"cycle"
+			],
+			[
+				"C",
+				"CHIPDS"
+			],
+			[
+				"Inv",
+				"InvoiceTotal"
+			],
+			[
+				"Sub",
+				"SubTotal"
+			],
+			[
+				"Virtu",
+				"VirtualCube"
+			],
+			[
+				"Invo",
+				"Invoice"
+			],
+			[
+				"d",
+				"dtype1"
+			],
+			[
+				"compa",
+				"compareValues"
+			],
+			[
+				"get",
+				"getValues"
+			],
+			[
+				"modi",
+				"modifiedby\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"crea",
+				"createdtime\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"unit",
+				"unitname\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"uni",
+				"unitid\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"vtiger_sp",
+				"vtiger_sp_act\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"acco",
+				"account\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"ser",
+				"servicename\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"vti",
+				"vtiger_service"
+			],
+			[
+				"Servi",
+				"Services"
+			],
+			[
+				"service",
+				"serviceid\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"vtiger",
+				"vtiger_service\t(Vtiger 6.3 Clean.xml)"
+			],
+			[
+				"axc",
+				"axcliCommand\t(DDCLIENT)"
+			],
+			[
+				"time",
+				"timeout"
+			],
+			[
+				"comma",
+				"commandType"
+			],
+			[
+				"upda",
+				"updateCommandArgs"
+			],
+			[
+				"c",
+				"cuu1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Task 2/task_2_1.hs",
+			"settings":
+			{
+				"buffer_size": 376,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "GHCi, version 8.2.1: http://www.haskell.org/ghc/  :? for help\n[1 of 1] Compiling Main             ( C:\\ras\\5 course\\First\\Haskell\\Task 2\\task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> treeInsert $ 12\n\n<interactive>:4:1: error:\n    * No instance for (Show (Tree Integer -> Tree Integer))\n        arising from a use of `print'\n        (maybe you haven't applied a function to enough arguments?)\n    * In a stmt of an interactive GHCi command: print it\n*Main> :t Tree\n\n<interactive>:1:1: error:\n    * Data constructor not in scope: Tree\n    * Perhaps you meant `True' (imported from Prelude)\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:1:41: error:\n    Not in scope: type constructor or class `Tree'\n  |\n1 | data BinaryTree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)\n  |                                         ^^^^\n\ntask_2_1.hs:1:50: error:\n    Not in scope: type constructor or class `Tree'\n  |\n1 | data BinaryTree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)\n  |                                                  ^^^^\n\ntask_2_1.hs:3:19: error:\n    Not in scope: type constructor or class `Tree'\n  |\n3 | singleton :: a -> Tree a  \n  |                   ^^^^\n\ntask_2_1.hs:6:31: error:\n    Not in scope: type constructor or class `Tree'\n  |\n6 | treeInsert :: (Ord a) => a -> Tree a -> Tree a  \n  |                               ^^^^\n\ntask_2_1.hs:6:41: error:\n    Not in scope: type constructor or class `Tree'\n  |\n6 | treeInsert :: (Ord a) => a -> Tree a -> Tree a  \n  |                                         ^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:1:41: error:\n    Not in scope: type constructor or class `Tree'\n  |\n1 | data BinaryTree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)\n  |                                         ^^^^\n\ntask_2_1.hs:1:50: error:\n    Not in scope: type constructor or class `Tree'\n  |\n1 | data BinaryTree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)\n  |                                                  ^^^^\n\ntask_2_1.hs:3:19: error:\n    Not in scope: type constructor or class `Tree'\n  |\n3 | singleton :: a -> Tree a  \n  |                   ^^^^\n\ntask_2_1.hs:6:31: error:\n    Not in scope: type constructor or class `Tree'\n  |\n6 | treeInsert :: (Ord a) => a -> Tree a -> Tree a  \n  |                               ^^^^\n\ntask_2_1.hs:6:41: error:\n    Not in scope: type constructor or class `Tree'\n  |\n6 | treeInsert :: (Ord a) => a -> Tree a -> Tree a  \n  |                                         ^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :t Tree\n\n<interactive>:1:1: error:\n    * Data constructor not in scope: Tree\n    * Perhaps you meant `True' (imported from Prelude)\n*Main> :t BinaryTree\n\n<interactive>:1:1: error: Data constructor not in scope: BinaryTree\n*Main> :t BinaryTree\n\n<interactive>:1:1: error: Data constructor not in scope: BinaryTree\n*Main> :t Node\nNode :: a -> BinaryTree a -> BinaryTree a -> BinaryTree a\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :t Node\nNode :: a -> BinaryTree a -> BinaryTree a -> BinaryTree a\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:3:19: error:\n    * Expecting one fewer arguments to `BinaryTree'\n      Expected kind `* -> *', but `BinaryTree' has kind `*'\n    * In the type signature: singleton :: a -> BinaryTree a\n  |\n3 | singleton :: a -> BinaryTree a  \n  |                   ^^^^^^^^^^^^\n\ntask_2_1.hs:6:31: error:\n    * Expecting one fewer arguments to `BinaryTree'\n      Expected kind `* -> *', but `BinaryTree' has kind `*'\n    * In the type signature:\n        treeInsert :: (Ord a) => a -> BinaryTree a -> BinaryTree a\n  |\n6 | treeInsert :: (Ord a) => a -> BinaryTree a -> BinaryTree a  \n  |                               ^^^^^^^^^^^^\n\ntask_2_1.hs:6:47: error:\n    * Expecting one fewer arguments to `BinaryTree'\n      Expected kind `* -> *', but `BinaryTree' has kind `*'\n    * In the type signature:\n        treeInsert :: (Ord a) => a -> BinaryTree a -> BinaryTree a\n  |\n6 | treeInsert :: (Ord a) => a -> BinaryTree a -> BinaryTree a  \n  |                                               ^^^^^^^^^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:3:19: error:\n    * Expecting one fewer arguments to `BinaryTree'\n      Expected kind `* -> *', but `BinaryTree' has kind `*'\n    * In the type signature: singleton :: a -> BinaryTree a\n  |\n3 | singleton :: a -> BinaryTree a  \n  |                   ^^^^^^^^^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:4:20: error:\n    * Couldn't match expected type `Integer' with actual type `a'\n      `a' is a rigid type variable bound by\n        the type signature for:\n          singleton :: forall a. a -> BinaryTree\n        at task_2_1.hs:3:1-28\n    * In the first argument of `Node', namely `x'\n      In the expression: Node x EmptyTree EmptyTree\n      In an equation for `singleton':\n          singleton x = Node x EmptyTree EmptyTree\n    * Relevant bindings include\n        x :: a (bound at task_2_1.hs:4:11)\n        singleton :: a -> BinaryTree (bound at task_2_1.hs:4:1)\n  |\n4 | singleton x = Node x EmptyTree EmptyTree  \n  |                    ^\n\ntask_2_1.hs:9:12: error:\n    * Couldn't match expected type `a' with actual type `Integer'\n      `a' is a rigid type variable bound by\n        the type signature for:\n          treeInsert :: forall a. Ord a => a -> BinaryTree -> BinaryTree\n        at task_2_1.hs:6:1-53\n    * In the second argument of `(==)', namely `a'\n      In the expression: x == a\n      In a stmt of a pattern guard for\n                     an equation for `treeInsert':\n        x == a\n    * Relevant bindings include\n        x :: a (bound at task_2_1.hs:8:12)\n        treeInsert :: a -> BinaryTree -> BinaryTree\n          (bound at task_2_1.hs:7:1)\n  |\n9 |     | x == a = Node x left right  \n  |            ^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\nOk, 1 module loaded.\n*Main> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:3:32: error:\n    * Expecting one fewer arguments to `Integer'\n      Expected kind `* -> *', but `Integer' has kind `*'\n    * In the type signature:\n        treeInsert :: BinaryTree a -> (Integer a) -> BinaryTree a\n  |\n3 | treeInsert :: BinaryTree a -> (Integer a)-> BinaryTree a\n  |                                ^^^^^^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:4:14: error:\n    * Couldn't match expected type `Integer'\n                  with actual type `BinaryTree a0'\n    * In the pattern: EmptyTree\n      In an equation for `treeInsert':\n          treeInsert x EmptyTree = Node x EmptyTree EmptyTree\n  |\n4 | treeInsert x EmptyTree = Node x EmptyTree EmptyTree  \n  |              ^^^^^^^^^\n\ntask_2_1.hs:5:15: error:\n    * Couldn't match expected type `Integer'\n                  with actual type `BinaryTree (BinaryTree a)'\n    * In the pattern: Node a left right\n      In an equation for `treeInsert':\n          treeInsert x (Node a left right)\n            | x == a = Node x left right\n            | x < a = Node a (treeInsert x left) right\n            | x > a = Node a left (treeInsert x right)\n    * Relevant bindings include\n        x :: BinaryTree a (bound at task_2_1.hs:5:12)\n        treeInsert :: BinaryTree a -> Integer -> BinaryTree a\n          (bound at task_2_1.hs:4:1)\n  |\n5 | treeInsert x (Node a left right)   \n  |               ^^^^^^^^^^^^^^^^^\n\ntask_2_1.hs:7:37: error:\n    * Couldn't match expected type `Integer'\n                  with actual type `BinaryTree (BinaryTree a)'\n    * In the second argument of `treeInsert', namely `left'\n      In the second argument of `Node', namely `(treeInsert x left)'\n      In the expression: Node a (treeInsert x left) right\n    * Relevant bindings include\n        right :: BinaryTree (BinaryTree a) (bound at task_2_1.hs:5:27)\n        left :: BinaryTree (BinaryTree a) (bound at task_2_1.hs:5:22)\n        a :: BinaryTree a (bound at task_2_1.hs:5:20)\n        x :: BinaryTree a (bound at task_2_1.hs:5:12)\n        treeInsert :: BinaryTree a -> Integer -> BinaryTree a\n          (bound at task_2_1.hs:4:1)\n  |\n7 |     | x < a  = Node a (treeInsert x left) right  \n  |                                     ^^^^\n\ntask_2_1.hs:8:42: error:\n    * Couldn't match expected type `Integer'\n                  with actual type `BinaryTree (BinaryTree a)'\n    * In the second argument of `treeInsert', namely `right'\n      In the third argument of `Node', namely `(treeInsert x right)'\n      In the expression: Node a left (treeInsert x right)\n    * Relevant bindings include\n        right :: BinaryTree (BinaryTree a) (bound at task_2_1.hs:5:27)\n        left :: BinaryTree (BinaryTree a) (bound at task_2_1.hs:5:22)\n        a :: BinaryTree a (bound at task_2_1.hs:5:20)\n        x :: BinaryTree a (bound at task_2_1.hs:5:12)\n        treeInsert :: BinaryTree a -> Integer -> BinaryTree a\n          (bound at task_2_1.hs:4:1)\n  |\n8 |     | x > a  = Node a left (treeInsert x right)  \n  |                                          ^^^^^\nFailed, 0 modules loaded.\nPrelude> :load task_2_1\n[1 of 1] Compiling Main             ( task_2_1.hs, interpreted )\n\ntask_2_1.hs:3:31: error:\n    * Expecting one fewer arguments to `Integer'\n      Expected kind `* -> *', but `Integer' has kind `*'\n    * In the type signature:\n        treeInsert :: BinaryTree a -> Integer a -> BinaryTree a\n  |\n3 | treeInsert :: BinaryTree a -> Integer a -> BinaryTree a\n  |                               ^^^^^^^^^\nFailed, 0 modules loaded.\nPrelude> ",
+			"settings":
+			{
+				"buffer_size": 10414,
+				"line_ending": "Windows",
+				"name": "*REPL* [sublime_haskell_repl]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Configure"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Rebuild"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Install"
+				]
+			],
+			[
+				"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "hask",
+		"selected_items":
+		[
+			[
+				"hask",
+				"SublimeHaskell Repl: Load"
+			],
+			[
+				"uplo",
+				"Mediawiker: File Upload"
+			],
+			[
+				"",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"upl",
+				"Mediawiker: File Upload"
+			],
+			[
+				"has rep",
+				"SublimeHaskell Repl: GHCi current file"
+			],
+			[
+				"has re",
+				"SublimeHaskell Repl: Load"
+			],
+			[
+				"has ru",
+				"SublimeHaskell: Run"
+			],
+			[
+				"haske",
+				"SublimeHaskell: Stack Exec"
+			],
+			[
+				"haskel r",
+				"Set Syntax: Haskell Repl"
+			],
+			[
+				"haskel",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"haskel co",
+				"SublimeHaskell: Configure"
+			],
+			[
+				"haskel  cre",
+				"SublimeHaskell: Configure"
+			],
+			[
+				"haskel b",
+				"SublimeHaskell: Build"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Check"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"reload",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: dele",
+				"Package Control: Disable Package"
+			],
+			[
+				"Ma",
+				"Material Theme: Activate theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 468.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"cd /Applications/Sublime\\ Text.app/",
+			"w",
+			"window.run_command(\"set_settings N211 10.243.122.189 araski1 65225855\")",
+			"window.run_command(\"set_settings\")",
+			"window.run_command(“set_settings”)",
+			"set_settings",
+			"window.run_command(\"setsettings\")",
+			"window.run_command(\"set_settings\")",
+			"window.run_command(setsettings)",
+			"window.run_command(set_settings)",
+			"setsettings",
+			"set_settings",
+			"change_settings",
+			"set_settings",
+			"set_setting",
+			"submit_job",
+			"set_settings",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/ras/5 course/First/Haskell",
+		"/C/ras/5 course/First/Haskell/Task 2"
+	],
+	"file_history":
+	[
+		"/C/Users/raskia/Rexx/DVEEXPSN.rexx",
+		"/C/ras/5 course/First/System Prog/dump/dump/main.c",
+		"/C/ras/5 course/First/System Prog/dump/dump/dump.h",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_newBitmap.xml",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/User/SublimeHaskell.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/C/ras/5 course/First/Info systems/lab1/template.tex",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/C/ras/5 course/First/Info systems/lab1/template.aux",
+		"/C/Users/raskia/Documents/misc.txt",
+		"/C/Users/raskia/Rexx/EXPCHK",
+		"/C/Users/raskia/Rexx/VRNGCHK_old",
+		"/C/Users/raskia/IdeaProjects/converter/template/LOW_IO/GENERAL/SPID_FENCE_OPERATIONS.jcl",
+		"/C/Users/raskia/Pictures/test.rex",
+		"/C/Users/raskia/Pictures/test.rexx",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_dve.xml",
+		"/C/Users/raskia/Rexx/DVEEXPSN",
+		"/C/Users/raskia/Rexx/sysl.rex",
+		"/C/Users/raskia/IdeaProjects/converter/template/LPAR_CONFIGURATION/ZOS_COMMAND_OUTPUT/CHECK_BY_DS_P.jcl",
+		"/C/Users/raskia/IdeaProjects/converter/template/LOW_IO/GENERAL/CCW_PROCEDURE_RUN.jcl",
+		"/C/Users/raskia/Documents/Scott TCs/Vary Devices Online Offline(upd).xml",
+		"/C/Users/raskia/IdeaProjects/converter/environment/Gramma rules.txt",
+		"/C/Users/raskia/Rexx/DVEEXPSN_1_job",
+		"/C/Users/raskia/Rexx/MDEVCHK",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf.xml",
+		"/C/Users/raskia/Pictures/test 99312/Free-run offline shared FBA devices over FICON(99312).xml",
+		"/C/Users/raskia/Pictures/test 99317/Verify online FBA over FICON support(99317).xml",
+		"/C/Users/raskia/Rexx/ADCLIENT",
+		"/C/Users/raskia/Rexx/DDCHK",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_adios_HR.xml",
+		"/C/Users/raskia/IdeaProjects/converter/environment/sbinitjob.txt",
+		"/C/ras/bachelor/firstVe.xml",
+		"/C/ras/bachelor/biInvoice.xml",
+		"/C/Users/raskia/Rexx/VRNGCHK",
+		"/C/ras/bachelor/Vtiger.xml",
+		"/C/Users/raskia/Rexx/ZHPFCHK.rex",
+		"/C/Users/raskia/Rexx/VRNGCHK.rex",
+		"/C/ras/bachelor/cvdelop.xml",
+		"/C/Users/raskia/Downloads/FoodMart.mondrian.xml",
+		"/D/Mysqldb/FoodMar.xml",
+		"/C/Users/raskia/IdeaProjects/dev/IdeaProjects/db-sync-web/src/main/resources/WEB-INF/target.properties",
+		"/C/Users/raskia/IdeaProjects/dev/IdeaProjects/metrics-data-collector/src/main/resources/application.yaml",
+		"/C/Users/raskia/IdeaProjects/dev/SQL/OpenFixCountByMonth.sql",
+		"/C/Users/raskia/IdeaProjects/dev/Python/extract Rexx_comments.py",
+		"/C/Users/raskia/Rexx/CLIENT",
+		"/C/ras/bachelor/Testt5.xml",
+		"/C/ras/bachelor/firstVer.xml",
+		"/C/Users/raskia/Rexx/QHACHK",
+		"/C/Users/raskia/Rexx/CHKINLIN",
+		"/C/Users/raskia/Rexx/SMBSCR",
+		"/C/ras/bachelor/TestSchema.xml",
+		"/C/Users/raskia/Rexx/VARSUBS",
+		"/C/Users/raskia/AppData/Local/Temp/Temp1_demo (1).zip/demo/build.gradle",
+		"/C/ras/bachelor/demo/src/main/java/com/example/demo/DemoApplication.java",
+		"/C/ras/bachelor/complete/src/main/java/hello/GreetingController.java",
+		"/C/Users/raskia/Rexx/EXPNTNCHK",
+		"/C/ras/bachelor/deprecate-gs-consuming-rest-xml-android-master/complete/src/main/java/org/hello/HelloActivity.java",
+		"/C/ras/bachelor/deprecate-gs-consuming-rest-xml-android-master/complete/src/main/java/org/hello/Greeting.java",
+		"/C/Users/raskia/Rexx/MYREXX",
+		"/C/Users/raskia/Rexx/DPPRC",
+		"/C/Users/raskia/Rexx/EXPNTNCHK.rexx",
+		"/C/ras/bachelor/services_cube1.xml",
+		"/C/ras/vtigerCRM630/apache/htdocs/vtigerCRM/config.php",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_mod2.xml",
+		"/C/ras/bachelor/Vtiger 6.3 Clean.xml",
+		"/C/ras/bachelor/clean-dump.sql",
+		"/C/Users/raskia/Pictures/test 92718/Reset SPID Fence CCW to base devices only in a CU(92718).xml",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_adios.xml",
+		"/C/Users/raskia/IdeaProjects/mondrian_maker/outputSchema/firstVer",
+		"/C/Users/raskia/IdeaProjects/mondrian_maker/outputSchema/firstVer.xml",
+		"/C/ras/bachelor/TestShema.xml",
+		"/C/pentaho/foodmart-db/foodmart_mondrian.xml",
+		"/C/Users/raskia/IdeaProjects/Simple_POP3_Server/resources/users.txt",
+		"/C/Users/raskia/Rexx/ADCLIENT.rex",
+		"/C/ras/Clojure projects/sample/src/nom/nom/nom.clj",
+		"/C/ras/Clojure projects/sample/test/test_nom_nom_nom.clj",
+		"/C/Users/raskia/IdeaProjects/converter/template/LOCAL_REPLICATION_LR_/CLONE/ACTIVATE.jcl",
+		"/C/ras/Clojure projects/sample/project.clj",
+		"/C/ras/Clojure projects/sample/src/nom/nom/check.clj",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/User/All Autocomplete.sublime-settings",
+		"/C/Users/raskia/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Clojure/project.clj",
+		"/C/Users/raskia/Pictures/test 115013/HPAV Support for 1TB CKD EAV Devices(115013).xml",
+		"/C/Users/raskia/Pictures/test 115014/DPAV Support for 1TB CKD EAV Devices(115014).xml",
+		"/C/Users/raskia/Pictures/test 115015/z_HPF Support for 1TB CKD EAV Devices(115015).xml",
+		"/C/Users/raskia/Pictures/test 115012/Freerun with 1TB CKD volumes(115012).xml",
+		"/C/Users/raskia/Rexx/QHADSQHA",
+		"/D/Last Half-Year/TAU/Labs/4/listings/quality.m",
+		"/D/Last Half-Year/TAU/Labs/4/listings/coeffs.m",
+		"/D/Last Half-Year/TAU/Labs/4/listings/syschars.m",
+		"/D/Kleopatra/F9B77C5E95136433094D634D3EA0C1EC87041864.asc",
+		"/C/Users/raskia/urlDownloader/src/main/java/com/xerocry/crawler/core/HTMLPageResponse.java",
+		"/C/Users/raskia/Documents/hosts.txt",
+		"/C/Users/raskia/Documents/boxes_for_tcs.txt",
+		"/C/Users/raskia/Documents/new 3.txt",
+		"/C/Users/raskia/Downloads/MySql-Sakila.xml",
+		"/C/Users/raskia/Downloads/Sakila.xml",
+		"/C/Users/raskia/Pictures/N204.SB116205.R2052313.xml",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf_res.xml",
+		"/C/Users/raskia/IdeaProjects/converter/tests/testcase102.xml",
+		"/C/Users/raskia/IdeaProjects/URLcrawler2/src/main/java/com/xerocry/crawler/run/Main.java",
+		"/C/Users/raskia/Pictures/test 115012/Freerun with 1TB CKD volumes(115012)2.xml",
+		"/C/Users/raskia/Pictures/test 86370/Test Query Host Access CCW with ReserveRelease(86370).xml",
+		"/C/Users/raskia/IdeaProjects/database/src/main/java/com/xerocry/service/names.txt",
+		"/C/Users/raskia/IdeaProjects/database/cities",
+		"/C/Users/raskia/IdeaProjects/converter/environment/tests CCW.txt",
+		"/C/Users/raskia/IdeaProjects/converter/outputjcl/N215.SB116186.R2052223.TST",
+		"/C/Users/raskia/IdeaProjects/converter/tests/testcase103.xml",
+		"/C/Users/raskia/IdeaProjects/converter/environment/smartbuilder_release_mf3.xml",
+		"/C/pentaho/pentaho-server/pentaho-solutions/plugin-samples/Sakila.xml",
+		"/C/pentaho/pentaho-server/pentaho-solutions/plugin-samples/MySql-Sakila.xml",
+		"/C/pentaho/pentaho-server/pentaho-solutions/plugin-samples/test.xml",
+		"/D/Last Half-Year/Database/Lab1/scripts/Treatment.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Services.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Payments.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/ebean.properties",
+		"/D/Last Half-Year/Database/Lab1/scripts/Entity.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/LoadExampleData.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/DiseasesTypes.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Diseases.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Grants.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Drugs.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Doctors.java",
+		"/D/Last Half-Year/Database/Lab1/scripts/Patients.java"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Task 2/task_2_1.hs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"rainbowth.lispy": false,
+							"ruler":
+							[
+							],
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10414,
+								10414
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_dir": "C:\\ras\\5 course\\First\\Haskell",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"rainbowth.lispy": false,
+							"repl": true,
+							"repl_external_id": "sublime_haskell_repl",
+							"repl_id": "c021d13bb043458da344aee77297cd6f",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"ghci",
+									"$file"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"external_id": "sublime_haskell_repl",
+								"syntax": "Packages/SublimeHaskell/Syntaxes/HaskellRepl.tmLanguage",
+								"type": "sublime_haskell"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/SublimeHaskell/Syntaxes/HaskellRepl.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 308.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_run_output":
+	{
+		"height": 112.0
+	},
+	"output.mediawiker_panel":
+	{
+		"height": 206.0
+	},
+	"output.sublime_haskell_error_panel":
+	{
+		"height": 112.0
+	},
+	"output.sublime_haskell_output_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+	"project": "haskell.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\ras\\Clojure projects\\sample\\project.clj"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\ras\\Sublime\\bachelor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 106.0,
+		"last_filter": "chec",
+		"selected_items":
+		[
+			[
+				"chec",
+				"checkParams:"
+			],
+			[
+				"check",
+				"checkParams:"
+			],
+			[
+				"update",
+				"updateCommandArgs:"
+			],
+			[
+				"gene",
+				"generateStartJobMessage:"
+			],
+			[
+				"init",
+				"initConnection:"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
